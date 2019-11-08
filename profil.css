@@ -1,0 +1,140 @@
+  
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;;
+}
+
+body {
+    background-color: #a59f9f;
+}
+
+.container {
+    margin: 0% 25%;
+    background-color: cadetblue;
+    border: none;
+    padding: 2% 5%;
+}
+
+label{
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding-top: 2%;
+    text-align: center;
+}
+
+/* .img {
+    border-radius: 30px;
+    width: 6%;
+    margin-bottom: 1%;
+    background-color: #fff;
+    padding: 0 10px;
+} */
+
+.judul{
+    text-align: center;
+}
+
+.gambar-profil{
+    width: 150px;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 2px;   
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style: Italic; */
+    color:black;
+    padding-bottom: 8%;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    position: relative;
+    background: #396fda;
+    padding: 0px 0px;
+    list-style: none;
+    display: inline-table;
+    width: 10%;
+}
+
+nav ul li {
+    float: bottom;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+nav ul li a {
+    text-decoration: none;
+       display: block;
+    padding: 10px;
+    color:white ;
+    text-align: center;
+    
+}
+
+
+nav ul ul {
+    background: rgb(0, 0, 0);
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+
+nav ul ul li a:hover {
+    background-color: rgb(121, 121, 121);
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+    width: 250px;
+}
+
+input[type=button] {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #445a92;
+    color: white;
+    font-size: 90%;
+}
+
+input[type=button]:hover {
+    background-color:green;
+}
+
+.button-align{
+    text-align: right;
+}

@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: lobster;
+    background-image: url(kocu2.jpg);
+    
+}
+
+.header{
+    font-family: lobster;
+    padding: 30px 0 30px 0;
+    background-color: rgb(27, 26, 26);
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+    margin-bottom: 50px;
+}
+
+.textlogin{
+	text-align: center;
+    text-transform: uppercase;
+    font-family: lobster;
+}
+ 
+.kotaklogin{
+	width: 350px;
+	background: #fff;
+	margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.btnlogin{
+	background: #19b5fe;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.btnlogin:hover{
+    background: rgb(0, 162, 255);
+    color: #fff;
+}
